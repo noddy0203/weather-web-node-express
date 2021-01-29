@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@200;300;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    
+    <title>home</title>
+</head>
+<body>
+   {{>navbar}}
+<!--main header-->
+    <div class="container-fluid main_header">
+       <div class="row">
+          <div class="col-md-10 col-10 mx-auto">
+              <div class="row">
+                 <div class="col-md-6 col-12 main_header_left">
+                    <p>Welcome to weather app</p>
+                    <h1>Get The Latest <span>Weather</span> Info Of Your City</h1>
+                    <a href="/weather"><button>Check Now</button></a>
+                 </div>
+
+                 <div class="col-md-6 col-12 main_header_left">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8d2hpdGUlMjBiYWNrZ3JvdW5kJTIwd2VhdGhlcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="w-100" alt="clouds">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://images.unsplash.com/photo-1460013477427-b0cce3e30151?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8d2hpdGUlMjBiYWNrZ3JvdW5kJTIwcmFpbnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="w-100" alt="rain">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://images.unsplash.com/photo-1609770019928-12455f86c4a8?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjN8fHdoaXRlJTIwYmFja2dyb3VuZCUyMHN1bnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="w-100" alt="sun">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </a>
+                      </div>
+                </div>
+
+            </div>
+       </div>
+    </div>
+
+<footer>
+<p class="text-center">created with &hearts; by Noddy</p>
+</footer>
+</body>
+</html>
